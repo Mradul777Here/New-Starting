@@ -8,7 +8,6 @@ public class Flash : MonoBehaviour
     public float fadeDuration;
     public float maxIntensity;
     public bool LightFlashing;
-    public bool flashbang;
 
     void Update()
     {
@@ -28,15 +27,11 @@ public class Flash : MonoBehaviour
     {
         lightSource.intensity = maxIntensity;
         float elapsedTime = 0f;
-        if (Random.Range(0, 10) == 0 && !flashbang)
+        if (Random.Range(0, 10) == 0)
         {
             lightSource.color = Color.red;
         }
-        if (flashbang)
-        {
-            maxIntensity = 1000;
-
-        }
+        
 
         while (elapsedTime < fadeDuration)
         {
@@ -46,10 +41,8 @@ public class Flash : MonoBehaviour
         }
 
         lightSource.intensity = 0;
-        flashbang = false;
         lightSource.color = Color.white;
         yield return new WaitForSeconds(1);
         LightFlashing = false;
-        maxIntensity = 500;
     }
 }

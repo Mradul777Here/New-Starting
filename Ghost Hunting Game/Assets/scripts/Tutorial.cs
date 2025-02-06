@@ -2,7 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-public class tutorial : MonoBehaviour
+public class Tutorial : MonoBehaviour
 {
     public TextMeshProUGUI textElement; // Reference to the UI Text
     public float fadeDuration = 1f;
