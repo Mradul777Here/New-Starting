@@ -3,7 +3,12 @@ guid: 2dd684b3a4458d241ac40c0d607c6a62
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden Drawer.001
+    second: {fileID: 2100000, guid: b68e24304f4246b48b9872429b06989f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
