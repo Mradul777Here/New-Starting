@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wooden Drawer.001
-    second: {fileID: 2100000, guid: b68e24304f4246b48b9872429b06989f, type: 2}
+    second: {fileID: 2100000, guid: 15fb408e96e7f4a4ab7de78ead7e3f82, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
